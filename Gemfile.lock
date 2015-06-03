@@ -1,0 +1,51 @@
+GIT
+  remote: git://github.com/sinatra/sinatra.git
+  revision: 18353f8e0fe8b1be10c1e56f3d7301deda841b4d
+  specs:
+    sinatra (1.4.6)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.6.1)
+    builder (3.2.2)
+    cookiejar (0.3.2)
+    gyoku (1.3.1)
+      builder (>= 2.1.2)
+    haml (4.0.6)
+      tilt
+    httparty (0.13.3)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.2)
+    mini_portile (0.6.2)
+    multi_xml (0.5.5)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
+    rack (1.6.1)
+    rack-protection (1.5.3)
+      rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    racksh (1.0.0)
+      rack (>= 1.0)
+      rack-test (>= 0.5)
+    tilt (2.0.1)
+    uuidtools (2.1.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print
+  cookiejar
+  gyoku (~> 1.0)
+  haml
+  httparty
+  nokogiri
+  racksh
+  sinatra!
+  uuidtools
